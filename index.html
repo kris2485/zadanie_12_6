@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ajax z pomocą jQuery</title>
+	<title>API</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	
+	<div>
+		<h1>Country search engine</h1>
+		<button id="search">Search a country</button>
+		<input id="country-name" type="text" />
+		<h2>List of countries</h2>
+		<ul id="countries">
+		  <li>No data</li>
+		</ul>
+	</div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script   src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
